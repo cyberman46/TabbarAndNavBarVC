@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905478051F89D4620070DBC2 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905478041F89D4620070DBC2 /* NavViewController.swift */; };
 		90B572571F877BA900956D45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B572561F877BA900956D45 /* AppDelegate.swift */; };
 		90B572591F877BA900956D45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B572581F877BA900956D45 /* ViewController.swift */; };
 		90B5725C1F877BA900956D45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B5725A1F877BA900956D45 /* Main.storyboard */; };
 		90B5725F1F877BA900956D45 /* TabbarVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90B5725D1F877BA900956D45 /* TabbarVC.xcdatamodeld */; };
 		90B572611F877BA900956D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B572601F877BA900956D45 /* Assets.xcassets */; };
 		90B572641F877BA900956D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B572621F877BA900956D45 /* LaunchScreen.storyboard */; };
+		90B5726C1F877C5200956D45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5726B1F877C5200956D45 /* LoginViewController.swift */; };
+		90B5726E1F877FC800956D45 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5726D1F877FC800956D45 /* Tab1ViewController.swift */; };
+		90B572701F877FF500956D45 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5726F1F877FF500956D45 /* Tab2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		905478041F89D4620070DBC2 /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 		90B572531F877BA900956D45 /* TabbarVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B572561F877BA900956D45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B572581F877BA900956D45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		90B572601F877BA900956D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90B572631F877BA900956D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90B572651F877BA900956D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B5726B1F877C5200956D45 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		90B5726D1F877FC800956D45 /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
+		90B5726F1F877FF500956D45 /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				90B572621F877BA900956D45 /* LaunchScreen.storyboard */,
 				90B572651F877BA900956D45 /* Info.plist */,
 				90B5725D1F877BA900956D45 /* TabbarVC.xcdatamodeld */,
+				90B5726B1F877C5200956D45 /* LoginViewController.swift */,
+				90B5726D1F877FC800956D45 /* Tab1ViewController.swift */,
+				90B5726F1F877FF500956D45 /* Tab2ViewController.swift */,
+				905478041F89D4620070DBC2 /* NavViewController.swift */,
 			);
 			path = TabbarVC;
 			sourceTree = "<group>";
@@ -139,9 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B5726C1F877C5200956D45 /* LoginViewController.swift in Sources */,
+				905478051F89D4620070DBC2 /* NavViewController.swift in Sources */,
 				90B572591F877BA900956D45 /* ViewController.swift in Sources */,
 				90B572571F877BA900956D45 /* AppDelegate.swift in Sources */,
+				90B5726E1F877FC800956D45 /* Tab1ViewController.swift in Sources */,
 				90B5725F1F877BA900956D45 /* TabbarVC.xcdatamodeld in Sources */,
+				90B572701F877FF500956D45 /* Tab2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
